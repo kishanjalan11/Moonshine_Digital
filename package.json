@@ -1,0 +1,23 @@
+{
+  "name": "lackadaisical-vacation-8634",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishanjalan11/lackadaisical-vacation-8634.git"
+  },
+  "author": "sandhya patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kishanjalan11/lackadaisical-vacation-8634/issues"
+  },
+  "homepage": "https://github.com/kishanjalan11/lackadaisical-vacation-8634#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
