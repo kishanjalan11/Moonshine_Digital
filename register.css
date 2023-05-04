@@ -1,0 +1,132 @@
+/* Apply some basic styles to the form */
+form {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Add some padding to the fieldsets */
+  fieldset {
+    padding: 8px;
+  }
+  
+  /* Add a border and margin to the fieldsets */
+  fieldset.field {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-width:5px ;
+    border-radius: 5px;
+  }
+  
+  /* Style the labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the inputs and selects */
+  input[type="text"],[type="email"],[type="password"],
+  select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Add some styles to the error messages */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  #registerForm{
+    width: 30%;
+    margin: auto;
+  }
+
+  #Or{
+    /* border: 1px solid #000; */
+padding-top: 20px;
+    margin: auto;
+}
+
+#login{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#logHere{
+    background-color: #0000ff;
+    width: 200px;
+    height: 30px;
+    width: 200px;
+   border: none;
+   color: white;
+   border-radius: 10px;
+   height: 37px;
+   
+}
+  #logHere:hover{
+    background-color: white;
+    color: black;
+    }
+    /* checkbox */
+    #checkbox{
+        margin-bottom: 20px;
+    }
+    
+    #declartion>label{
+        font-size: 20px;
+        border: 1px solid white;
+        display: block;
+    }
+    #declartion{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #check{
+        text-align: justify;
+        border: 1px solid #000;
+        
+    }
+    #text{
+        font-size: small;
+    }
+    #apply{
+        background-color: #0000ff;
+        width: 200px;
+        height: 37px;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+     #apply:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        border: none;
+    }   
+    
+    
