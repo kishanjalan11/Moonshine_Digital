@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    background: #f6f6f9;
+}
+
+#container{
+    display : flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#myform{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 35px;
+    background: white;
+    border-radius: 25px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 18px;
+    background: white;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    margin: 15px auto 0px;
+    width: 50%;
+    background-color: #7380ec;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* ------------------------------------- MEDIA QUERIES ------------------------------ */
+@media screen and (max-width: 1200px){
+    #container{
+        width: 100%;
+        height: 100%;
+    }
+
+    #myform{
+        margin-top: 15px;
+        margin-bottom: 35px;
+        padding: 20px;
+    }
+}
