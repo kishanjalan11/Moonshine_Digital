@@ -1,18 +1,23 @@
 /* Apply some basic styles to the form */
+/* body{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+} */
 form {
     font-family: Arial, sans-serif;
-    max-width: 500px;
     margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    background-color: transparent;
   }
-  
-  /* Add some padding to the fieldsets */
-  fieldset {
-    padding: 8px;
+  input{
+    font-weight: 600;
   }
   
   /* Add a border and margin to the fieldsets */
   fieldset.field {
-    border: 1px solid #ccc;
+    border: 1px solid rebeccapurple;
     margin-bottom: 10px;
     border-width:5px ;
     border-radius: 5px;
@@ -62,26 +67,24 @@ form {
   }
 
   #Or{
-    /* border: 1px solid #000; */
-padding-top: 20px;
+    padding-top: 20px;
     margin: auto;
 }
 
 #login{
     text-align: center;
-    margin-bottom: 100px;
 }
 
 #logHere{
-    background-color: #0000ff;
+    background-color:rebeccapurple;
     width: 200px;
     height: 30px;
     width: 200px;
    border: none;
    color: white;
    border-radius: 10px;
-   height: 37px;
-   
+   height: 35px;
+   margin-bottom: 5px;
 }
   #logHere:hover{
     background-color: white;
@@ -94,14 +97,15 @@ padding-top: 20px;
     
     #declartion>label{
         font-size: 20px;
-        border: 1px solid white;
         display: block;
+        border: none;
     }
     #declartion{
     text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
     }
     #check{
         text-align: justify;
@@ -112,9 +116,9 @@ padding-top: 20px;
         font-size: small;
     }
     #apply{
-        background-color: #0000ff;
+        background-color: rebeccapurple;
         width: 200px;
-        height: 37px;
+        height: 35px;
         border: none;
         color: white;
         border-radius: 10px;
@@ -128,5 +132,30 @@ padding-top: 20px;
         cursor: pointer;
         border: none;
     }   
-    
-    
+
+/* set the parent container to relative positioning */
+.container {
+  position: relative;
+}
+
+#background-img {
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  width: 40%;
+  height: fit-content;
+  z-index: -1;
+  opacity: 0.7;
+  margin: auto;
+  margin-bottom: -50px;
+}
+
+#registerForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 100%;
+  margin-top: 35px;
+}

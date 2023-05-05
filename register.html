@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="register.css">
   </head>
   <body>
+        <img id="background-img" src="./image/1.png" alt="" >
+      
     <div id="registerForm">
-        <form id="fieldSelect">
+        <form id="fieldSelect" class="container">
             <p><b>Create An Account</b></p>
             
             <fieldset id="firstNameField" class="field">
@@ -33,7 +35,7 @@
               <input type="text" required id="phone">
             </fieldset>
             
-            <fieldset id="genderField" class="field">
+            <!-- <fieldset id="genderField" class="field">
               <legend>
                 <label for="gender">Gender</label>
               </legend>
@@ -42,9 +44,9 @@
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
               </select>
-            </fieldset>
+            </fieldset> -->
             
-            <fieldset id="birthMonthField" class="field">
+            <!-- <fieldset id="birthMonthField" class="field">
               <legend><b>Birth Month</b></legend>
               <select id="birthMonth" required>
                 <option value=''>Select Month</option>
@@ -93,7 +95,7 @@
                 <option value="22">22</option>
                 <option value="23">23</option>
               </select>
-            </fieldset>
+            </fieldset> -->
 
             <fieldset id="birthDateField" class="field">
                 <legend>
@@ -101,24 +103,24 @@
                 </legend>
                 <input type="email"  id="email" required>
             </fieldset>
-            <fieldset id="birthDateField" class="field">
+            <!-- <fieldset id="birthDateField" class="field">
                 <legend>
                   <label for="ConfirmEmail">Confirm Email</label>
                 </legend>
             <input type="email" id="ConfirmEmail" required>
-            </fieldset>
+            </fieldset> -->
             <fieldset id="birthDateField" class="field">
                 <legend>
                   <label for="Password">Password</label>
                 </legend>
             <input type="password" id="password" required>
             </fieldset>
-            <fieldset id="birthDateField" class="field">
+            <!-- <fieldset id="birthDateField" class="field">
                 <legend>
                   <label for="ConfirmPassword">Confirm Password</label>
                 </legend>
             <input type="password" id="confirmPassword" required>
-            </fieldset>
+            </fieldset> -->
             
             <br>
             <div id="declartion">
@@ -128,19 +130,21 @@
             <br>
             <input type="submit" value="Apply" id="apply">
                 
-          </form>
+         
         <div id="login">
            <h3 id="Or">Or</h3>
-           <br>
+          
            <p>User Already register Login here</p>
-           <br>
+           
           <button id="logHere">Login here...</button>
         </div>
-    </div>
-            
+  </div>
+ 
+</form>
+
 </body>
 <script src="register.js"></script>
-<script src="./script/register.js"></script>
+<!-- <script src="./script/register.js"></script> -->
 </html>
 
 
