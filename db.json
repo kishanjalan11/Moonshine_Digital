@@ -1,0 +1,79 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Web Development",
+      "description": "We thoroughly comprehend the objective of website development for each of our clients. Whether you are looking at improving sales of your physical products through online presence or selling digitals products or may be seeking it as a means of advertisement to your clients.",
+      "image": "https://img.theweek.in/content/dam/week/news/biz-tech/images/2021/1/12/website-development.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mobile Apps",
+      "description": "Mobile application development is the development and writing of code for the purpose of developing tablet and mobile based applications. Mobile apps are basically similar to web applications and fall under software development. One unique thing about mobile applications is that they may be developed to take advantage of the unique features of mobile, for example, a mobile game.",
+      "image": "https://img.freepik.com/premium-photo/phone-mobile-application-development-concept-mobile-internet-3d-illustration_76964-5164.jpg"
+    },
+    {
+      "name": "SEO",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREFfdFGVptZ6mqVSCVle50qhyk1XiVsqrlvClTOO6tD4NbKBux45mRuxeZDyxDVR6joaY&usqp=CAU",
+      "description": "Digital Marketing is an umbrella term for the marketing of products and services by utilizing a number of digital technologies like the internet, intranet, mobile phones, or any other frequently used digital mediums and platforms.SEO and SMO together can bring your customers to you in no time.",
+      "id": 3
+    },
+    {
+      "name": "Website Design",
+      "image": "https://www.analyticsinsight.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg",
+      "description": "We deliver you what every successful business starts with, A uniquely developed Website.Designing a website requires a perfect blend of creativity and logic. Our team of content and adequately skilled professionals can develop a perfect website to give your business the most appealing online presence through a perfect website design.",
+      "id": 4
+    },
+    {
+      "name": "Saas",
+      "image": "https://media.designrush.com/articles/248039/conversions/saas-development-details.jpg",
+      "description": "We build Software-as-a-Service (Saas) platform for your business. Tailored to your needs. Just the way you need it for your customers. On-demand continuous upgrades that support your growth. Focus on your business growth, zero installation zero maintenance cost, no hassle.",
+      "id": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Mahesh Tiwari",
+      "email": "mahesh@gmail.com",
+      "mobile": "78459685126"
+    },
+    {
+      "id": 2,
+      "name": "Riya Sinha",
+      "email": "riya@gmail.com",
+      "mobile": "98485795126"
+    },
+    {
+      "id": 3,
+      "name": "Trupti Mishra",
+      "email": "trushmi@gmail.com",
+      "mobile": "8974158624"
+    }
+    ,{
+      "id": 4,
+      "name": "Manoj Sharma",
+      "email": "manojsharma@gmail.com",
+      "mobile": "9425879851"
+    }
+    ,{
+      "id": 5,
+      "name": "Sayali Popali",
+      "email": "popalisayli@gmail.com",
+      "mobile": "6845197325"
+    }
+    ,{
+      "id": 7,
+      "name": "Krishna Jain",
+      "email": "jainkrish@gmail.com",
+      "mobile": "8762348975"
+    },
+    {
+      "id": 8,
+      "name": "Rachana Kulkarni",
+      "email": "rachana748@gmail.com",
+      "mobile": "8845126978"
+    }
+  ]
+
+}
