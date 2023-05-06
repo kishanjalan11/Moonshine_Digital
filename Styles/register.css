@@ -1,9 +1,4 @@
-/* Apply some basic styles to the form */
-/* body{
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-} */
+
 form {
     font-family: Arial, sans-serif;
     margin: 0 auto;
@@ -14,7 +9,9 @@ form {
   input{
     font-weight: 600;
   }
-  
+  h2{
+    margin: auto;
+  }
   /* Add a border and margin to the fieldsets */
   fieldset.field {
     border: 1px solid rebeccapurple;
@@ -25,7 +22,7 @@ form {
   
   /* Style the labels */
   label {
-    display: block;
+    /* display: block; */
     margin-bottom: 5px;
     font-weight: bold;
   }
@@ -66,72 +63,7 @@ form {
     margin: auto;
   }
 
-  #Or{
-    padding-top: 20px;
-    margin: auto;
-}
-
-#login{
-    text-align: center;
-}
-
-#logHere{
-    background-color:rebeccapurple;
-    width: 200px;
-    height: 30px;
-    width: 200px;
-   border: none;
-   color: white;
-   border-radius: 10px;
-   height: 35px;
-   margin-bottom: 5px;
-}
-  #logHere:hover{
-    background-color: white;
-    color: black;
-    }
-    /* checkbox */
-    #checkbox{
-        margin-bottom: 20px;
-    }
-    
-    #declartion>label{
-        font-size: 20px;
-        display: block;
-        border: none;
-    }
-    #declartion{
-    text-align: justify;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    }
-    #check{
-        text-align: justify;
-        border: 1px solid #000;
-        
-    }
-    #text{
-        font-size: small;
-    }
-    #apply{
-        background-color: rebeccapurple;
-        width: 200px;
-        height: 35px;
-        border: none;
-        color: white;
-        border-radius: 10px;
-        margin: auto;
-        text-align: center;
-        display: block;
-    }
-     #apply:hover{
-        background-color: white;
-        color: black;
-        cursor: pointer;
-        border: none;
-    }   
+  
 
 /* set the parent container to relative positioning */
 .container {
@@ -143,11 +75,11 @@ form {
   top: 0%;
   left: 30%;
   width: 40%;
-  height: fit-content;
   z-index: -1;
   opacity: 0.7;
   margin: auto;
   margin-bottom: -50px;
+  height: 500px;
 }
 
 #registerForm {
@@ -157,5 +89,31 @@ form {
   transform: translate(-50%, -50%);
   z-index: 1;
   height: 100%;
-  margin-top: 35px;
+  margin-top: 60px;
+}
+#checkParentTag{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+#sign{
+  width: 200px;
+  text-align: center;
+  background-color: rebeccapurple;
+  border: none;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+
+}
+#sign:hover{
+  background-color: white;
+  color: black;
+}
+form{
+  display: grid;
+  gap: 15px;
 }

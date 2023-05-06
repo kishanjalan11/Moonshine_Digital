@@ -1,0 +1,37 @@
+#data-list-wrapper > div{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  width: 100%;
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  gap: 4%;
+}
+.card-body{
+  width: 100%;
+}
+#data-list-wrapper > div{
+  width: 80%;
+  margin-left: 30px;
+}
+.card-body > img{
+  width: 100%;
+}
+#main-div{
+  display: flex;
+  margin-top: 50px;
+ 
+}
+#cate{
+  display: flex;
+  justify-content: space-around;
+}
+p{
+  font-size: 20px;
+}
+#post{
+  width: 100%;
+  margin-left: -100px;
+}
