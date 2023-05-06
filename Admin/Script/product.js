@@ -14,6 +14,7 @@ async function postData(){
             "name": myform.name.value,
             "image": myform.serImg.value,
             "description": myform.description.value,
+            "longDes":myform.longDes.value
         }
       ),
       headers:{

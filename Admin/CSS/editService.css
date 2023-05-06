@@ -43,6 +43,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    
 }
 
 html{
@@ -101,13 +103,6 @@ h5{
 
 small{
     font-size: 0.75rem;
-}
-
-.profile-photo{
-    width: 2.8rem;
-    height: 2.8rem;
-    border-radius: 50%;
-    overflow: hidden;
 }
 
 .text-muted{
@@ -195,8 +190,9 @@ aside .sidebar a span{
 }
 
 aside .sidebar a:last-child{
-    position: absolute;
-    bottom: 2rem;
+    position: relative;
+    /* position: absolute; */
+    /* bottom: 2rem; */
     width: 100%;
 }
 
@@ -226,116 +222,88 @@ aside .sidebar a:hover span{
     margin-left: 1rem;
 }
 
-/* ------------------------------- MAIN ------------------------------------ */
-main{
-    margin-top: 1.4rem;
-}
-
-.chart{
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-    padding-top: 30px;
-}
-
-.modify{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 3.5rem;
-    padding: 20px;
-    box-shadow: var(--box-shadow);
-    background: var(--color-white);
-    border-radius: var(--border-radius-3);
-}
-
-.plus-btn, .edit-btn{
-    display: flex;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-}
-
-.plus-btn{
-    background-color: rgb(100, 112, 200);
-}
-
-.edit-btn{
-    background-color: rgb(100, 112, 200);
-}
-
-main span{
-    color: white;
-}
-
-
-main .recent-orders{
-    margin-top: 2rem;
-}
-
-main .recent-orders h2{
-    margin-bottom: 0.8rem;
-}
-
-main .recent-orders table{
-    background: var(--color-white);
-    width: 100%;
-    border-radius: var(--card-border-radius);
-    padding: var(--card-padding);
-    text-align: center;
-    box-shadow: var(--box-shadow);
-    transition: all 300ms ease;
-}
-
-main .recent-orders table:hover{
-    box-shadow: none;
-}
-
-main table tbody td{
+.profile-photo{
+    width: 2.8rem;
     height: 2.8rem;
-    border-bottom: 1px solid var(--color-light);
-    color: var(--color-dark-variant);
+    border-radius: 50%;
+    overflow: hidden;
 }
-
-main table tbody tr:last-child td{
-    border: none;
-}
-
-main .recent-orders a{
-    text-align: center; 
-    display: block;
-    margin: 1rem auto;
-    color: var(--color-primary);
-}
-
-
-/* ------------------------------- RIGHT SECTION ---------------------------------- */
-.right{
-    margin-top: 1.4rem;
-}
-
-.right .top{
-    display: flex;
-    justify-content: end;
-    gap: 2rem;
-}
-
-.right .top button{
-    display: none;
-}
-
-
 
 .right .top .profile{
     display: flex;
     gap: 2rem;
     text-align: right;
 }
+/* -----------------------------------MAIN ---------------------------------- */
 
-/* ------------------------------ MEDIA QUERIES ------------------------------- */
+main{
+    width: 140%;
+    margin-top: 1.4rem;
+    margin-bottom: 1.8rem;
+}
+
+main>h1{
+    padding-bottom: 1.6rem;
+}
+
+
+/* -------------------------- PRODUCTS CARD ---------------------------------------- */
+
+#product-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product-category{
+    color: rgb(59, 107, 229);
+    margin-top: 10px;
+}
+
+.product-card{
+    width: 100%;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+}
+
+.product-img{
+    width: 100%;
+    height: 300px;
+}
+.product-desc{
+    margin-top: 15px;
+}
+
+
+.remove-btn{
+    margin-top: 10px;
+    background-color: #F44336;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+    justify-content: center;
+}
+
+.edit-btn{
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+
+/* ----------------------------- MEDIA QUERIES ------------------------------ */
+
+
 @media screen and (max-width: 1200px){
     .container{
         width: 94%;
@@ -363,16 +331,9 @@ main .recent-orders a{
         margin-top: 1.8rem;
     }
 
-    main .insights{
-        grid-template-columns: 1fr;
-        gap: 0;
+    main{
+        width: 155%;
     }
-
-    .modify{
-        width: 140%;
-    }
-
-    
 }
 
 
@@ -433,62 +394,65 @@ main .recent-orders a{
         margin-top: 8rem;
         padding: 0 1rem;
     }
-
-    .modify{
-        width: 90%;
-    }
-
-    /* main .recent-orders{
-        position: relative;
-        margin: 3rem 0 0 0;
-        width: 100%;
-    }
-
-    main .recent-orders table{
-        width: 100%;
-        margin: 0;
-    } */
-
-    .right{
-        width: 94%;
-        margin: 0 auto 4rem;
-    }
-
-    .right .top{
-        position: fixed;
-        top: 0;
-        left: 0;
-        align-items: center;
-        padding: 0 0.8rem;
-        height: 4.6rem;
-        width: 100%;
-        background-color: var(--color-white);
-        margin: 0;
-        z-index: 2;
-        box-shadow: 0 1rem 1rem var(--color-light);
-    }
-
-    /* .right .top .theme-toggler{
-        width: 4.4rem;
-        position: absolute;
-        left: 66%;
-    } */
-
-    .right .profile .info{
-        display: none;
-    }
-
-    .right .top button{
-        display: inline-block;
-        background: transparent;
-        cursor: pointer;
-        color: var(--color-dark);
-        position: absolute;
-        left: 1rem;
-    }
     
-    .right .top button span{
-        font-size: 2rem;
+}
+
+
+#container{
+    display : flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#myform{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 35px;
+    background: white;
+    border-radius: 25px;
+}
+
+textarea, input{
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 18px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: black;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    margin: 15px auto 0px;
+    width: 50%;
+    background-color: #7380ec;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* ------------------------------------- MEDIA QUERIES ------------------------------ */
+@media screen and (max-width: 1200px){
+    #container{
+        width: 100%;
+        height: 100%;
     }
-       
+
+    #myform{
+        margin-top: 15px;
+        margin-bottom: 35px;
+        padding: 20px;
+    }
 }
