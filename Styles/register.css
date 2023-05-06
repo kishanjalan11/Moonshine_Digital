@@ -1,0 +1,161 @@
+/* Apply some basic styles to the form */
+/* body{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+} */
+form {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    background-color: transparent;
+  }
+  input{
+    font-weight: 600;
+  }
+  
+  /* Add a border and margin to the fieldsets */
+  fieldset.field {
+    border: 1px solid rebeccapurple;
+    margin-bottom: 10px;
+    border-width:5px ;
+    border-radius: 5px;
+  }
+  
+  /* Style the labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the inputs and selects */
+  input[type="text"],[type="email"],[type="password"],
+  select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Add some styles to the error messages */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  #registerForm{
+    width: 30%;
+    margin: auto;
+  }
+
+  #Or{
+    padding-top: 20px;
+    margin: auto;
+}
+
+#login{
+    text-align: center;
+}
+
+#logHere{
+    background-color:rebeccapurple;
+    width: 200px;
+    height: 30px;
+    width: 200px;
+   border: none;
+   color: white;
+   border-radius: 10px;
+   height: 35px;
+   margin-bottom: 5px;
+}
+  #logHere:hover{
+    background-color: white;
+    color: black;
+    }
+    /* checkbox */
+    #checkbox{
+        margin-bottom: 20px;
+    }
+    
+    #declartion>label{
+        font-size: 20px;
+        display: block;
+        border: none;
+    }
+    #declartion{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    }
+    #check{
+        text-align: justify;
+        border: 1px solid #000;
+        
+    }
+    #text{
+        font-size: small;
+    }
+    #apply{
+        background-color: rebeccapurple;
+        width: 200px;
+        height: 35px;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+     #apply:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        border: none;
+    }   
+
+/* set the parent container to relative positioning */
+.container {
+  position: relative;
+}
+
+#background-img {
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  width: 40%;
+  height: fit-content;
+  z-index: -1;
+  opacity: 0.7;
+  margin: auto;
+  margin-bottom: -50px;
+}
+
+#registerForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 100%;
+  margin-top: 35px;
+}
