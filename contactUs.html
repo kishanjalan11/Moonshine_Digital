@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moonshine Creative Agency</title>
-    <link rel="stylesheet" href="./contactUs.css">
+    <link rel="stylesheet" href="Styles/contactUs.css">
 </head>
 <body>
     <nav></nav>
@@ -28,21 +28,20 @@
     <div id="detail">
         <h1>SUBMIT QUERY</h1>
         <div>
-            <form action="Submit">
+            <form action="submit" >
                 <h4>YOUR NAME</h4>
-                <input type="text" placeholder="Name" class="name">
+                <input type="text" placeholder="Name" class="name" id="name">
                 <h4>YOUR EMAIL</h4>
-                <input type="text"placeholder="Email" class="name">
+                <input type="text"placeholder="Email" class="name" id="email">
                 <h4>YOUR CONTACT NUMBER</h4>
-                <input type="text" placeholder="Number" class="name">
+                <input type="text" placeholder="Number" class="name" id="number">
                 <h4>YOUR MESSAGE</h4>
-               <textarea name="" id="" cols="30" rows="5"placeholder="Message" class="message"></textarea>
-               <div id="btn">
-               <button>SEND NOW</button>
-            </div>
+               <textarea cols="30" rows="5"placeholder="Message" class="message" id="message"></textarea>
+               <input type="submit" value="SEND NOW" id="btn">
             </form>
         </div>
     </div>
 </body>
-<script src="./contact.js"></script>
+<script src="Scripts/contact.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>

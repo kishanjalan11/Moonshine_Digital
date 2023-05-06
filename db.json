@@ -49,20 +49,20 @@
       "name": "Trupti Mishra",
       "email": "trushmi@gmail.com",
       "mobile": "8974158624"
-    }
-    ,{
+    },
+    {
       "id": 4,
       "name": "Manoj Sharma",
       "email": "manojsharma@gmail.com",
       "mobile": "9425879851"
-    }
-    ,{
+    },
+    {
       "id": 5,
       "name": "Sayali Popali",
       "email": "popalisayli@gmail.com",
       "mobile": "6845197325"
-    }
-    ,{
+    },
+    {
       "id": 7,
       "name": "Krishna Jain",
       "email": "jainkrish@gmail.com",
@@ -75,5 +75,4 @@
       "mobile": "8845126978"
     }
   ]
-
 }
