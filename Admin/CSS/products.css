@@ -29,7 +29,7 @@
     border-radius: 25px;
 }
 
-input{
+textarea, input{
     padding: 10px;
     margin: 10px 0px;
     font-size: 18px;

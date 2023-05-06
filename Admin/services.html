@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/admin.css">
+    <link rel="stylesheet" href="./CSS/services.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <title>Admin Dashboard</title>
+    <title>Services</title>
 </head>
 <body>
     <div class="container">
@@ -61,65 +61,16 @@
         
         <!-- ------------------------  MAIN --------------------------- -->
         <main>
-            <h1>Dashboard</h1>
-            <div class="chart">
-                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-            </div>
-            <!-- ------------------------- ADD Service -------------------- -->
-            <div class="modify">
-                <div class="add">
-                    <h1>Add Service</h1>
-                    <p>add details of the service here !</p>
-                </div>
-                <div class="plus-btn">
-                    <a href="./products.html">
-                        <span class="material-icons-sharp">add</span>
-                    </a>
-                </div>
-            </div>
-
-
-            <!-- ------------------------- EDIT Service -------------------- -->
-            <div class="modify">
-                <div class="edit">
-                    <h1>Edit Service</h1>
-                    <p>edit details of the service here !</p>
-                </div>
-                <div class="edit-btn">
-                    <a href="./editProduct.html">
-                        <span class="material-icons-sharp">edit</span>
-                    </a>
-                </div>
-            </div>
-
-
-             <div class="insights">
-                
-
+            <h1>Products</h1>
+            <div id="product-container">
                 
             </div>
-
         </main>
 
 
         <!-- ---------------------------------- RIGHT SECTION ----------------------------------- -->
-        <div class="right">
-            <div class="top">
-                <button id="menu-btn">
-                    <span class="material-icons-sharp">menu</span>
-                </button>
-                <div class="profile">
-                    <div class="info">
-                        <p>Hey, <b>Admin</b></p>
-                        <small class="text-muted">Admin</small>
-                    </div>
-                    <div class="profile-photo">
-                        <img src="./Images/adminImg.jpg" alt="admin-photo">
-                    </div>
-                </div>
-            </div>
-        </div>  
+        
     </div>
 </body>
-<script src="./Script/admin.js"></script>
+<script src="./Script/services.js"></script>
 </html>

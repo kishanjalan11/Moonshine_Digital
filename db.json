@@ -4,31 +4,36 @@
       "id": 1,
       "name": "Web Development",
       "description": "We thoroughly comprehend the objective of website development for each of our clients. Whether you are looking at improving sales of your physical products through online presence or selling digitals products or may be seeking it as a means of advertisement to your clients.",
-      "image": "https://img.theweek.in/content/dam/week/news/biz-tech/images/2021/1/12/website-development.jpg"
+      "image": "https://img.theweek.in/content/dam/week/news/biz-tech/images/2021/1/12/website-development.jpg",
+      "longDes": "Let your ideas become a reality! Web development is like the backbone of the website. It is what makes the website function. It is all about how the website works and how the potential customers are able to navigate through it. Web programming is also known as web development which includes the creation of dynamic web applications. It uses various web languages and software tools to develop the design and functionality of a website.Focused on the broader objective of your business growth, our services involve few steps. We discuss, plan and understand your business needs to develop the most apt site and hence, we are known as the best website designing company"
     },
     {
       "id": 2,
       "name": "Mobile Apps",
-      "description": "Mobile application development is the development and writing of code for the purpose of developing tablet and mobile based applications. Mobile apps are basically similar to web applications and fall under software development. One unique thing about mobile applications is that they may be developed to take advantage of the unique features of mobile, for example, a mobile game.",
-      "image": "https://img.freepik.com/premium-photo/phone-mobile-application-development-concept-mobile-internet-3d-illustration_76964-5164.jpg"
+      "description": "Mobile application development is the development and writing of code for the purpose of developing tablet and mobile based applications. Mobile apps are basically similar to web applications and fall under software development.",
+      "image": "https://img.freepik.com/premium-photo/phone-mobile-application-development-concept-mobile-internet-3d-illustration_76964-5164.jpg",
+      "longDes": "Smartphones are progressively utilized for a variety of purposes extending from scanning the web to leaning to music, from visiting to photography and from directing business to incorporating information. We compose an adaptable methodology with impeccable planning that gives a conclusion to-end business much simpler and makes the client empower access on a few OS frameworks much quicker.  As indicated by a study, the utilization of Mobile applications has effectively crossed web surfing utilization. According to the US insights, more than 80 million unidentified use sessions are recorded each day over every single Mobile stage"
     },
     {
       "name": "SEO",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREFfdFGVptZ6mqVSCVle50qhyk1XiVsqrlvClTOO6tD4NbKBux45mRuxeZDyxDVR6joaY&usqp=CAU",
       "description": "Digital Marketing is an umbrella term for the marketing of products and services by utilizing a number of digital technologies like the internet, intranet, mobile phones, or any other frequently used digital mediums and platforms.SEO and SMO together can bring your customers to you in no time.",
-      "id": 3
+      "id": 3,
+      "longDes": "In today's digital world, you do not only need a properly designed website but you also need to have a good SEO strategy in place to beat out your rivals. Small small firms to large firms, every single one of them have a competent SEO team that is working behind closed doors day and night. We are here to do exactly that.Our team consists of experienced SEO strategists who have gained their knowledge after working in different industries. Our strategies will give you results immediately as you will see a jump in your traffic rate as soon as you start working with us. Whether you are a new company that needs to create an online presence or need help with your existing SEO strategy, we are always here to help."
     },
     {
       "name": "Website Design",
       "image": "https://www.analyticsinsight.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg",
       "description": "We deliver you what every successful business starts with, A uniquely developed Website.Designing a website requires a perfect blend of creativity and logic. Our team of content and adequately skilled professionals can develop a perfect website to give your business the most appealing online presence through a perfect website design.",
-      "id": 4
+      "id": 4,
+      "longDes": "The advent of technological advancements and the latest innovation has catered for the audience in diverse manners. And undeniably custom web design is one of those integral upliftments of todays fast-paced world. With the invention of affordable custom web design, it has become significantly easier and quicker to interact with your target audience and create a potential brand image in the present fierce competition.Todays world is undoubtedly ever-changing as there has been a drastic hike in custom ecommerce web design services. All this innovation and AI have been brought up to comfort human lives and make it hassle-free. The perfect example of this statement is “Ecommerce Website Designing.” In the current time, nobody has to struggle or hustle to find the desired products or services. Anyone can access any product (edible or non-edible) or service via diverse ecommerce product page design."
     },
     {
       "name": "Saas",
       "image": "https://media.designrush.com/articles/248039/conversions/saas-development-details.jpg",
       "description": "We build Software-as-a-Service (Saas) platform for your business. Tailored to your needs. Just the way you need it for your customers. On-demand continuous upgrades that support your growth. Focus on your business growth, zero installation zero maintenance cost, no hassle.",
-      "id": 5
+      "id": 5,
+      "longDes": "SASS DEVELOPMENT GROUP  has been leading in Operations & Maintenance, Cleaning Services and Logistics industry for more than 19 years in safe and competitive projects in Saudi Arabia. SDG delivers a staff of highly-trained professionals, wealth of knowledge and innovative solutions to every project. Our skilled teams are known for solving problems creatively to achieve optimum results. In all our projects, we maintain a keen focus on safety. We are committed to achieving the highest safety standards on all our projects, using proven, leading-edge technologies and behavior-based safety practices to reduce risks to our employees, clients, and surrounding communities.Our successful track record of testing and commissioning procedures helps develop a steadfast facility commissioning plan and comprehensive schedule to meet our client needs."
     }
   ],
   "customers": [
@@ -49,20 +54,20 @@
       "name": "Trupti Mishra",
       "email": "trushmi@gmail.com",
       "mobile": "8974158624"
-    }
-    ,{
+    },
+    {
       "id": 4,
       "name": "Manoj Sharma",
       "email": "manojsharma@gmail.com",
       "mobile": "9425879851"
-    }
-    ,{
+    },
+    {
       "id": 5,
       "name": "Sayali Popali",
       "email": "popalisayli@gmail.com",
       "mobile": "6845197325"
-    }
-    ,{
+    },
+    {
       "id": 7,
       "name": "Krishna Jain",
       "email": "jainkrish@gmail.com",
@@ -75,5 +80,4 @@
       "mobile": "8845126978"
     }
   ]
-
 }
