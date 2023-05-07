@@ -52,6 +52,10 @@ function displaydata(data){
             let a=document.createElement("a")
             a.classList.add("anker","link")
             a.innerText="Read More"
+            a.addEventListener("click",funClick)
+            function funClick(){
+                window.location.href="index.html"
+            }
     
             cardbody.append(cardTitle);
             cardbody.append(cardDesc, a)
