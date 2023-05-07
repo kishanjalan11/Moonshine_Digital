@@ -54,7 +54,8 @@ function displaydata(data){
             a.innerText="Read More"
             a.addEventListener("click",funClick)
             function funClick(){
-                window.location.href="index.html"
+                localStorage.setItem("id",element.id)
+                window.location.href="detail.html"
             }
     
             cardbody.append(cardTitle);
