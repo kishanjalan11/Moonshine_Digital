@@ -1,39 +1,37 @@
+let container=document.getElementById("container")
+productData()
 
-let mainSection = document.getElementById("main")
-window.addEventListener("load", (e) => {
-    fetchData()
- });
+async function productData(){
     
-
-async function fetchData(){
+    let id = localStorage.getItem("id")
+    // console.log(id)
     try {
-        let res = await fetch(`http://localhost:3000/services`);
+        let res = await fetch(`http://localhost:3000/services/${id}`);
         let data = await res.json();
         console.log(data)
-        displaydata(data)
-       
+        displayData(data)
     } catch (error) {
-        console.log(error);
+        console.log(error)
     }
 }
 
-function displaydata(data){
 
-    mainSection.innerHTML="";
+function displayData(data){
+
+   container.innerHTML="";
     
-        data.forEach(element => {
             let cardlist = document.createElement("div");
             cardlist.setAttribute("class", "card-list");
           
             let card = document.createElement("div");
             card.setAttribute("class", "card");
-            card.setAttribute("data-id", element.id);
+            card.setAttribute("data-id", data.id);
           
             let cardImage = document.createElement("div");
             cardImage.classList.add("card_img");
           
             let img = document.createElement("img");
-            img.src = element.image;
+            img.src = data.image;
             img.setAttribute("alt", "img");
           
             cardImage.append(img);
@@ -43,30 +41,35 @@ function displaydata(data){
           
             let cardTitle = document.createElement("h2");
             cardTitle.classList.add("card_item", "card_title");
-            cardTitle.innerText = element.name;
+            cardTitle.innerText = data.name;
     
             let cardDesc = document.createElement("p");
             cardDesc.classList.add("card_desc", "card_descrip");
-            cardDesc.innerText = element.description;
+            cardDesc.innerText = data.description;
 
-            let a=document.createElement("a")
-            a.classList.add("anker","link")
-            a.innerText="Read More"
+            let longDesc = document.createElement("p");
+            longDesc.classList.add("longdesc", "longdescrip");
+            longDesc.innerText = data.longDes;
+            
 
-           a.addEventListener("click", function(){
-                localStorage.setItem("id", element.id)
-                window.location.href="details.html";
+            // let a=document.createElement("a")
+            // a.classList.add("anker","link")
+            // a.innerText="Read More"
+
+        //    a.addEventListener("click", function(){
+        //         localStorage.setItem("id", element.id)
+        //         window.location.href="details.html";
     
-            })
+        //     })
     
             cardbody.append(cardTitle);
-            cardbody.append(cardDesc, a)
+            cardbody.append(cardDesc)
           
             card.append(cardImage)
-            card.append(cardbody)
+            card.append(cardbody,longDesc)
         cardlist.append(card)
             // card.append(img,cardTitle,cardDesc)
-            mainSection.append(cardlist)
-           });
+         container.append(cardlist)
+       
     }
 
