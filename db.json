@@ -78,51 +78,57 @@
       "name": "Rachana Kulkarni",
       "email": "rachana748@gmail.com",
       "mobile": "8845126978"
+    },
+    {
+      "name": "Malashri ",
+      "email": "malashri@gmail.com",
+      "mobile": "123456789",
+      "message": "Is this app safe?",
+      "id": 9
     }
   ],
-  "blogs":[
+  "blogs": [
     {
-      "id":1,
-      "img":"https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-5.png",
-      "date":"May 4,2023",
-      "title":"Optimizing Online Grocery Shopping with Certified Magento Developers",
-      "description":"Online shopping has been one of the most convenient ways of shopping in recent times. With the advent of online grocery shopping, consumers have been able to save time and energy by simply ordering their groceries online and having them delivered to their doorstep."
+      "id": 1,
+      "img": "https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-5.png",
+      "date": "May 4,2023",
+      "title": "Optimizing Online Grocery Shopping with Certified Magento Developers",
+      "description": "Online shopping has been one of the most convenient ways of shopping in recent times. With the advent of online grocery shopping, consumers have been able to save time and energy by simply ordering their groceries online and having them delivered to their doorstep."
     },
     {
-      "id":2,
-      "img":"https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-3.png",
-      "date":"May 2,2023",
-      "title":"The Relationship Between Product Management and UX Design",
-      "description":"The proficiency in product management and UX design serves as pivotal aspects for the success of any product or service. A product manager’s task involves supervising a product’s evolution and launch."
+      "id": 2,
+      "img": "https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-3.png",
+      "date": "May 2,2023",
+      "title": "The Relationship Between Product Management and UX Design",
+      "description": "The proficiency in product management and UX design serves as pivotal aspects for the success of any product or service. A product manager’s task involves supervising a product’s evolution and launch."
     },
     {
-      "id":3,
-      "img":"https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-2.png",
-      "date":"April 28,2023",
-      "title":"Cloud E-commerce Hosting Solutions for Startups: The Ultimate Guide to Boost Your Online Business",
-      "description":"Starting an internet venture can be a thrilling odyssey and daunting, particularly for fledgling companies. Choosing the appropriate hosting solution for your virtual shop is one of the most consequential determinations."
+      "id": 3,
+      "img": "https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-2.png",
+      "date": "April 28,2023",
+      "title": "Cloud E-commerce Hosting Solutions for Startups: The Ultimate Guide to Boost Your Online Business",
+      "description": "Starting an internet venture can be a thrilling odyssey and daunting, particularly for fledgling companies. Choosing the appropriate hosting solution for your virtual shop is one of the most consequential determinations."
     },
     {
-      "id":4,
-      "img":"https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-4.png",
-      "date":"April 25,2023",
-      "title":"The Secret World of Dating Apps: Understanding User Behaviour and How to Hire an iPhone App Developer",
-      "description":"Dating applications have caused a revolution in the way we connect with and discover romantic connections. A mere finger flick can lead us to sift through many profiles, engage in conversations with potential partners, and even arrange an in-person rendezvous."
+      "id": 4,
+      "img": "https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-4.png",
+      "date": "April 25,2023",
+      "title": "The Secret World of Dating Apps: Understanding User Behaviour and How to Hire an iPhone App Developer",
+      "description": "Dating applications have caused a revolution in the way we connect with and discover romantic connections. A mere finger flick can lead us to sift through many profiles, engage in conversations with potential partners, and even arrange an in-person rendezvous."
     },
     {
-      "id":5,
-      "img":"https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-1.png",
-      "date":"April 21,2023",
-      "title":"How to Become PCI DSS Compliant",
-      "description":"PCI DSS compliance is essential for businesses accepting payment card transactions. Failure to comply with the PCI DSS standards can result in hefty fines and damage a business’s reputation."
+      "id": 5,
+      "img": "https://theaquarious.com/blog/wp-content/uploads/2023/04/AT-Posters-for-Articles-1.png",
+      "date": "April 21,2023",
+      "title": "How to Become PCI DSS Compliant",
+      "description": "PCI DSS compliance is essential for businesses accepting payment card transactions. Failure to comply with the PCI DSS standards can result in hefty fines and damage a business’s reputation."
     },
     {
-      "id":6,
-      "img":"https://theaquarious.com/blog/wp-content/uploads/2023/04/The-Best-Payment-Solutions-for-Your-E-commerce-Startup-10.png",
-      "date":"April 17,2023",
-      "title":"Feasibility Study vs Business Plan: Which one do you need for Electronic Products and Software?",
-      "description":"Electronic products and software are a crucial part of modern society, with technology advancing at an unprecedented pace. Before launching a new electronic product or software, conducting a feasibility study and creating a business plan is essential."
+      "id": 6,
+      "img": "https://theaquarious.com/blog/wp-content/uploads/2023/04/The-Best-Payment-Solutions-for-Your-E-commerce-Startup-10.png",
+      "date": "April 17,2023",
+      "title": "Feasibility Study vs Business Plan: Which one do you need for Electronic Products and Software?",
+      "description": "Electronic products and software are a crucial part of modern society, with technology advancing at an unprecedented pace. Before launching a new electronic product or software, conducting a feasibility study and creating a business plan is essential."
     }
-    
   ]
 }

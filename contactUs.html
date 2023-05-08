@@ -5,44 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moonshine Creative Agency</title>
-    <link rel="stylesheet" href="./contactUs.css">
+    <link rel="stylesheet" href="Styles/contactUs.css">
 </head>
 <body>
-    <nav></nav>
+    <nav>
+        <div id="nav">
+            <div id="logo">
+                <a href="./index.html"><img src="./image/moonShine.png" alt=""></a>
+            </div>
+            <div id="navButtons">
+                <div id="services">
+                    <a href="./services.html">Services</a>
+                </div>
+                <div id="projects">
+                    <a href="./projects.html">Projects</a>
+                </div>
+                <div id="blogs">
+                    <a href="./blogs.html">Blogs</a>
+                </div>
+                <div id="included">
+                    <a href="">What's Included?</a>
+                </div>
+                <div id="contactUs">
+                    <a href="./contactUs.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <div id="contact">
-     <div>
-    <h1>CONTACT US</h1>
+    <h1><span>CONTACT</span> US</h1>
     <p>We are always here to address any query of yours</p>
 </div>
-    <img src="./image/Screenshot (128).png" alt="">
-    </div>
-    <div id="address">
-        <h1>WE ARE AT</h1>
-        <div>
-            <img src="./image/Screenshot (130).png" alt="">
-            <p>Address:- <span>2B Pretoria St, Elgin, Kolkata, West Bengal 700071</span></p>
-            <p>Email:- <span>admin@moonshine.com</span></p>
-            <p>Contact:- <span>+91 89104 95162</span></p>
+<div class="scroll-down"></div>
+         
+          
         </div>
-    </div>
+        <h1>SUBMIT <span>QUERY</span></h1>
     <div id="detail">
-        <h1>SUBMIT QUERY</h1>
         <div>
-            <form action="Submit">
+            <form action="submit">
                 <h4>YOUR NAME</h4>
-                <input type="text" placeholder="Name" class="name">
+                <input type="text" placeholder="Name" class="name" id="name">
                 <h4>YOUR EMAIL</h4>
-                <input type="text"placeholder="Email" class="name">
+                <input type="text"placeholder="Email" class="name" id="email">
                 <h4>YOUR CONTACT NUMBER</h4>
-                <input type="text" placeholder="Number" class="name">
+                <input type="text" placeholder="Number" class="name" id="number">
                 <h4>YOUR MESSAGE</h4>
-               <textarea name="" id="" cols="30" rows="5"placeholder="Message" class="message"></textarea>
-               <div id="btn">
-               <button>SEND NOW</button>
-            </div>
+               <textarea cols="30" rows="5"placeholder="Message" class="message" id="message"></textarea>
+               <input type="submit" value="SEND NOW" id="btn">
             </form>
+        </div>
+        <div id="location">
+            <h1>WE ARE AT</h1>
+            <div id="address"> 
+                    <img src="./image/Screenshot (130).png" alt="">
+                    <p>Address:- <span>2B Pretoria St, Elgin, Kolkata, West Bengal 700071</span></p>
+                    <p>Email:- <span>admin@moonshine.com</span></p>
+                    <p>Contact:- <span>+91 89104 95162</span></p>
+            </div>
         </div>
     </div>
 </body>
-<script src="./contact.js"></script>
+<script src="Scripts/contact.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>
