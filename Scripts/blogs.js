@@ -22,19 +22,19 @@ function createCard(data)
   mainSection.innerHTML = null;
   let display = `<div class = "card-list">
   ${data.map((ele)=>{
-    return displayData(ele.img,ele.title,ele.date,ele.description,ele.id)
+    return displayData(ele.img,ele.title,ele.date,ele.description,ele.id,ele.category)
   }).join("")}
   </div>`
   mainSection.innerHTML = display
 }
-function displayData(img,title,date,description,id)
+function displayData(img,title,date,description,id,category)
 {
 let card = `
 <div class = "card" data-id =  ${id}>
 <div class = "card-body">
-<img src =${img} alt = "img">
+<img src =${img} alt = "img" class="card-img">
 <p class = "card-date">${date}</p>
-<h4 class = "card-title">${title}</h4>
+<h2 class = "card-title">${title}</h2>
 <p class = "card-description">${description}</p>
 </div>
 </div>
@@ -42,3 +42,32 @@ let card = `
 return card
  }
 
+ const filterEl = document.getElementById("filter");
+ filterEl.addEventListener("change", async function() {
+    const selectedCategory = filterEl.value;
+    if (selectedCategory === "") {
+      
+      const res = await fetch(baseURL, {
+        method: "GET"
+      });
+      const data = await res.json();
+      mainSection.innerHTML = "";
+      createCard(data);
+    } else {
+      const res = await fetch(`${baseURL}?category=${selectedCategory}`, {
+        method: "GET"
+      });
+      const data = await res.json();
+      mainSection.innerHTML = "";
+      createCard(data);
+    }
+  });
+  
+
+document.addEventListener("click", function(event) {
+    if (event.target.matches(".card-img")) {
+      const cardId = event.target.closest(".card").getAttribute("data-id");
+      window.location.href = `description.html?id=${cardId}`;
+    }
+  });
+  
