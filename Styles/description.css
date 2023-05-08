@@ -1,0 +1,206 @@
+body{
+  background-color: #F5F4EF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#data-list-wrapper {
+  width: 100%;
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  gap: 4%;
+}
+.card-body{
+  width: 100%;
+}
+
+#main-div{
+  display: flex;
+  margin-top: 50px;
+ 
+}
+#main{
+  width: 60%;
+  margin-left: 30px;
+}
+.card-body > .card-img{
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+.card-description
+{
+  font-size: 20px;
+  margin-top: 40px;
+}
+#cate{
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+}
+p{
+  font-size: 20px;
+}
+#post{
+  width: 100%;
+  /* margin-left: -100px; */
+}
+.category{
+  padding-right: 30px;
+}
+img:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transform: scale(1.1);
+  }
+ span{
+  font-size:40px;color: #00a2ff;margin-top: 10px;padding-right: 10px
+ }
+ #mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+#des{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#main {
+  flex: 1;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+#post {
+  flex: 0 0 30%;
+  margin-top: 100px;
+}
+#mail{
+  width: 200px;
+}
+#address{
+  width: 200px;height: 70px;border: 1px solid rgba(255, 255, 255, 0.76);
+  padding: 10px;
+ 
+}
+#btn{
+  background-color: yellow;
+  width: 200px;height: 70px;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  #main-div {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  } 
+
+  #card-description{
+    text-align: justify;
+    font-size: 16px;
+  }
+  p{
+    font-size: 16px;
+  }
+  #des{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card-title{
+    font-size: 20px;
+  }
+  #mail{
+    width: 100px;
+  }
+  #address{
+    width: 70px;height: 30px;border: 1px solid rgba(255, 255, 255, 0.76);
+    font-size: 10px;
+  }
+  #btn{
+    background-color: yellow;
+    width: 70px;height: 30px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  #footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  #h1{
+    font-size: 16px;
+  }
+  #ptag{
+    font-size: 10px;
+  }
+  }
+   @media (min-width: 600px) and (max-width: 900px)
+ {
+  #card-description{
+    text-align: justify;
+  }
+   p{
+    font-size: 18px;
+  }
+  #des{
+    font-size: 18px;
+  }
+  .card-title{
+    font-size: 24px;
+  }
+ 
+  #main-div {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  } 
+  #post {
+    flex: 0 0 80%;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  #h1{
+    font-size: 18px;
+  }
+  #ptag{
+    font-size: 12px;
+  }
+  #mail{
+    width: 100px;
+  }
+  #address{
+    width: 80px;height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.76);
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  #btn{
+    background-color: yellow;
+    width: 100px;height: 30px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  #footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+}
+  
