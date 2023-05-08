@@ -46,7 +46,7 @@ nav,#topDiv,#connect,#services,#chat{
 
 main img{
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 #topDivBottom{
@@ -58,6 +58,7 @@ main img{
     font-size:60px;
     font-weight: 600;
     line-height: 80px;
+    margin-top: -50px;
 }
 
 .chColor{
@@ -78,29 +79,31 @@ main img{
     color: white;
     font-size: large;
 }
-/* 
-#marqueeParent {
-    border: 1px solid black;
-    width: 100%;
-    height: 2rem;
-  }
-  
-#marqueeContainer {
-    height: 100%;
-    display: flex;
-    padding-left: 10%;
-    border: 1px solid tomato;
-    animation: marquee 5s linear infinite;
-  }
-  
-  @keyframes marquee {
-    0% {
-      transform: translate(0%, 0);
-    }
-    100% {
-      transform: translate(-100%, 0);
-    }
-  } */
+
+marquee{
+  background-color: white;
+  height: 70px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 120px;
+  margin-top: 40px;
+}
+marquee>div{
+  display: inline-block;
+  margin: 18px 50px;
+}
+marquee>div>div{
+  display: inline-flex;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+marquee>div>.box{
+  padding: 0px 15px;
+  text-align: center;
+  border: 2px solid black;
+  margin-left:10px;
+}
 
   #letsconnect{
     display: flex;
@@ -152,15 +155,6 @@ main img{
     font-weight: 600;
     text-decoration: underline;
     color: black;
-  }
-
-  #services>p{
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    font-size:45px;
-    font-weight: 600;
-    line-height: 70px;
   }
 
 /* ---------------------------------------------------------------------------------- */
@@ -254,6 +248,44 @@ main img{
     width: 90%;
   }
 
+  /* Services Start */
+  #services>p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size:45px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-top: 120px;
+  }
+  #servicesGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+    padding: 100px 0px;
+  }
+
+  .servicesCard>.servicesHeader{
+    font-size: 30px;
+    /* font-weight: 600; */
+    font-weight: 600;
+    margin-top: -30px;
+  }
+
+  .servicesCard>.servicesDesc{
+    font-size: 20px;
+    color: #424242;
+    /* font-weight: 00; */
+  }
+
+  .servicesCard>a{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  /* Services End */
+
+
   /* Footer CSS Start */
 
   footer{
@@ -265,7 +297,7 @@ main img{
   }
   #footerLeft{
     width: 40%;
-    /* background-color: aquamarine; */
+    color: #656562;
   }
   #description{
     font-size: 20px;
@@ -297,6 +329,6 @@ main img{
   #footerRight>div>p>a{
     font-size: 18px;
     text-decoration: none;
-    color: black;
+    color: #656562;
   }
   /* Footer CSS End */
