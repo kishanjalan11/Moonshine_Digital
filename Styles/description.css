@@ -204,3 +204,98 @@ img:hover{
   }
 }
   
+
+
+/* Nav CSS Part Start*/
+
+#nav{
+  width: 90%;
+  margin: auto;
+  background-color: #F5F4EF;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+  margin-bottom: 100px;
+}
+#logo{
+  margin-left: 20px;
+  background-color: red;
+  width: 170px;
+}
+#logo img{
+  width: 100%;
+  height: 100%;
+}
+#nav>#navButtons{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+  margin-right: -25px;
+}
+#navButtons>div>a{
+  font-size: 18px;
+  color: black;
+  font-weight:600;
+  text-decoration:none;
+}
+
+/* Nav CSS Part End*/
+
+/* Footer CSS Start */
+#blackHR{
+  margin-top: 150px;
+  border: 0px;
+  background-color: black;
+  height: 2px;
+  width: 90%;
+}
+footer{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 150px;
+  margin-top: 50px;
+}
+#footerLeft{
+  width: 40%;
+  color: #656562;
+}
+#description{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#logoImg{
+ width: 40%;
+}
+footer img{
+  width: 100%;
+}
+
+#compLogos{
+  display: flex;
+}
+
+#footerRight{
+  display: flex;
+  width: 60%;
+  /* background-color: aqua; */
+  justify-content: space-between;
+}
+
+#footerRight>div>p:nth-child(1){
+  font-size: 20px;
+  font-weight: bold;
+}
+#footerRight>div>p>a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #656562;
+}
+/* Footer CSS End */
+
+main{
+  width: 90%;
+  margin: auto;
+}
