@@ -9,9 +9,7 @@ form.addEventListener("submit",(e)=>{
     let password= document.getElementById("password").value
    if(email=="admin"&&password=="admin")
    {
-    // window.location.href="./admin/admin.html"
-    console.log("blessmi")
-        
+    window.location.href="./admin/admin.html"
    }    
    else{
     alert("Enter correct username password")
